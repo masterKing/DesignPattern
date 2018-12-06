@@ -1,0 +1,17 @@
+PODS:
+  - CocoaAsyncSocket (7.4.2)
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (= 7.4.2)
+  - SDWebImage (= 4.4.0)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: f5783bdedd232d91b89769bc4b5a1580aed518ad
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+
+PODFILE CHECKSUM: 58c0fd7413dbf09605f2bd7e1e29733ec27753bd
+
+COCOAPODS: 1.4.0
