@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Mediator/CoordinatingController.h"
+#import "CoordinatingController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
