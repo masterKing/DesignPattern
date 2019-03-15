@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  TouchPainter
+//  AbstractFactory
 //
-//  Created by Franky on 2018/12/28.
-//  Copyright © 2018 Franky. All rights reserved.
+//  Created by Franky on 2019/3/15.
+//  Copyright © 2019 Franky. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,10 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    CoordinatingController *coordinatingController = [CoordinatingController shareInstance];
-    self.window.rootViewController = [coordinatingController activeViewController];
-    [self.window makeKeyAndVisible];
     return YES;
 }
 

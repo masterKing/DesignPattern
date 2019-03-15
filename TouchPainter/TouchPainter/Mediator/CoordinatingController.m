@@ -59,8 +59,9 @@ static CoordinatingController *sharedCoordinator = nil;
                 ThumbnailViewController *controller = [[ThumbnailViewController alloc] init];
                 [_canvasViewController presentViewController:controller animated:YES completion:nil];
                 _activeViewController = controller;
-            }
                 
+            }
+                break;
             default:
             {
                 [_canvasViewController dismissViewControllerAnimated:YES completion:nil];

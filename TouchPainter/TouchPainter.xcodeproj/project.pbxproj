@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3165F195223A770000B6AF2C /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F194223A770000B6AF2C /* CanvasView.m */; };
+		3165F198223A783900B6AF2C /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F197223A783900B6AF2C /* PaperCanvasView.m */; };
+		3165F19B223A792400B6AF2C /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F19A223A792400B6AF2C /* ClothCanvasView.m */; };
+		3165F19E223A9DC500B6AF2C /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F19D223A9DC500B6AF2C /* CanvasViewGenerator.m */; };
+		3165F1A1223A9EFD00B6AF2C /* PaperCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F1A0223A9EFD00B6AF2C /* PaperCanvasViewGenerator.m */; };
+		3165F1A4223A9FD300B6AF2C /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F1A3223A9FD300B6AF2C /* ClothCanvasViewGenerator.m */; };
 		3181D2BE21D68A8E004E5C15 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181D2BD21D68A8E004E5C15 /* CoordinatingController.m */; };
 		3181D2CA21D68BA3004E5C15 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3181D2C821D68BA3004E5C15 /* ThumbnailViewController.m */; };
 		3181D2CB21D68BA3004E5C15 /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3181D2C921D68BA3004E5C15 /* ThumbnailViewController.xib */; };
@@ -23,6 +29,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3165F193223A770000B6AF2C /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		3165F194223A770000B6AF2C /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		3165F196223A783900B6AF2C /* PaperCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
+		3165F197223A783900B6AF2C /* PaperCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasView.m; sourceTree = "<group>"; };
+		3165F199223A792400B6AF2C /* ClothCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasView.h; sourceTree = "<group>"; };
+		3165F19A223A792400B6AF2C /* ClothCanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasView.m; sourceTree = "<group>"; };
+		3165F19C223A9DC500B6AF2C /* CanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
+		3165F19D223A9DC500B6AF2C /* CanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
+		3165F19F223A9EFD00B6AF2C /* PaperCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasViewGenerator.h; sourceTree = "<group>"; };
+		3165F1A0223A9EFD00B6AF2C /* PaperCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperCanvasViewGenerator.m; sourceTree = "<group>"; };
+		3165F1A2223A9FD300B6AF2C /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		3165F1A3223A9FD300B6AF2C /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
 		3181D2BC21D68A8E004E5C15 /* CoordinatingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
 		3181D2BD21D68A8E004E5C15 /* CoordinatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
 		3181D2C721D68BA3004E5C15 /* ThumbnailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
@@ -57,6 +75,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3165F191223A746F00B6AF2C /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				3165F19C223A9DC500B6AF2C /* CanvasViewGenerator.h */,
+				3165F19D223A9DC500B6AF2C /* CanvasViewGenerator.m */,
+				3165F19F223A9EFD00B6AF2C /* PaperCanvasViewGenerator.h */,
+				3165F1A0223A9EFD00B6AF2C /* PaperCanvasViewGenerator.m */,
+				3165F1A2223A9FD300B6AF2C /* ClothCanvasViewGenerator.h */,
+				3165F1A3223A9FD300B6AF2C /* ClothCanvasViewGenerator.m */,
+			);
+			name = "Factory Method";
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3165F192223A76A200B6AF2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3165F193223A770000B6AF2C /* CanvasView.h */,
+				3165F194223A770000B6AF2C /* CanvasView.m */,
+				3165F196223A783900B6AF2C /* PaperCanvasView.h */,
+				3165F197223A783900B6AF2C /* PaperCanvasView.m */,
+				3165F199223A792400B6AF2C /* ClothCanvasView.h */,
+				3165F19A223A792400B6AF2C /* ClothCanvasView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3181D2BB21D68A64004E5C15 /* Mediator */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +170,8 @@
 		31BE2A0221D6402C00DD5A55 /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
+				3165F191223A746F00B6AF2C /* Factory Method */,
+				3165F192223A76A200B6AF2C /* Views */,
 				3181D2BF21D68A9F004E5C15 /* View Controllers */,
 				3181D2BB21D68A64004E5C15 /* Mediator */,
 				31BE2A0321D6402C00DD5A55 /* AppDelegate.h */,
@@ -214,12 +261,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3181D2CF21D68BCB004E5C15 /* PaletteViewController.m in Sources */,
+				3165F1A4223A9FD300B6AF2C /* ClothCanvasViewGenerator.m in Sources */,
 				3181D2BE21D68A8E004E5C15 /* CoordinatingController.m in Sources */,
 				31BE2A0821D6402C00DD5A55 /* ViewController.m in Sources */,
+				3165F1A1223A9EFD00B6AF2C /* PaperCanvasViewGenerator.m in Sources */,
+				3165F198223A783900B6AF2C /* PaperCanvasView.m in Sources */,
 				3181D2D421D68BE7004E5C15 /* CanvasViewController.m in Sources */,
 				31BE2A1321D6402C00DD5A55 /* main.m in Sources */,
 				3181D2CA21D68BA3004E5C15 /* ThumbnailViewController.m in Sources */,
+				3165F195223A770000B6AF2C /* CanvasView.m in Sources */,
 				31BE2A0521D6402C00DD5A55 /* AppDelegate.m in Sources */,
+				3165F19B223A792400B6AF2C /* ClothCanvasView.m in Sources */,
+				3165F19E223A9DC500B6AF2C /* CanvasViewGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

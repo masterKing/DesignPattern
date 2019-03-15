@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class CanvasView;
+@class CanvasViewGenerator;
+
 @interface CanvasViewController : UIViewController
+
+@property (nonatomic, strong) CanvasView *canvasView;
+
+- (void)loadCanvasViewWithGenerator:(CanvasViewGenerator *)generator;
 
 @end
 
