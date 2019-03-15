@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BrandingFactory.h"
 
 @interface ViewController ()
 
@@ -19,5 +20,17 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)loadView{
+    // 使用BrandingFactory获得的带品牌UI元素的构建视图
+    BrandingFactory *factory = [BrandingFactory factory];
+
+    UIView *view = [factory brandedView];
+    
+    UIButton *button = [factory brandedMainButton];
+    
+    UIToolbar *toolbar = [factory brandedToolbar];
+    
+    
+}
 
 @end
