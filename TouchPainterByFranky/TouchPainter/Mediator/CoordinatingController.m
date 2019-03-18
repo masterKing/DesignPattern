@@ -71,6 +71,16 @@ static CoordinatingController *sharedCoordinator = nil;
                 break;
         }
     }
+    // every thing else goes to the main canvasViewController
+    else
+    {
+        [_canvasViewController dismissModalViewControllerAnimated:YES];
+        
+        // set the activeViewController back to
+        // canvasViewController
+        _activeViewController = _canvasViewController;
+    }
+
 }
 
 @end
