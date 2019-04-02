@@ -2,7 +2,7 @@
 //  SierraView.m
 //  AbstractFactory
 //
-//  Created by Franky on 2019/3/15.
+//  Created by Franky on 2019/4/2.
 //  Copyright © 2019 Franky. All rights reserved.
 //
 
@@ -17,5 +17,14 @@
     // Drawing code
 }
 */
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.backgroundColor = [[UIColor cyanColor] colorWithAlphaComponent:0.34];
+    }
+    return self;
+}
 
 @end

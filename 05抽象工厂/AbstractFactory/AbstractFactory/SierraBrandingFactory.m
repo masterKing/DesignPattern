@@ -2,7 +2,7 @@
 //  SierraBrandingFactory.m
 //  AbstractFactory
 //
-//  Created by Franky on 2019/3/15.
+//  Created by Franky on 2019/4/2.
 //  Copyright © 2019 Franky. All rights reserved.
 //
 
@@ -13,18 +13,15 @@
 
 @implementation SierraBrandingFactory
 
-- (UIView *)brandedView
-{
+- (UIView *)brandedView{
     return [[SierraView alloc] init];
 }
 
-- (UIButton *)brandedMainButton
-{
+- (UIButton *)brandedMainButton{
     return [[SierraMainButton alloc] init];
 }
 
-- (UIToolbar *)brandedToolbar
-{
+- (UIToolbar *)brandedToolbar{
     return [[SierraToolbar alloc] init];
 }
 

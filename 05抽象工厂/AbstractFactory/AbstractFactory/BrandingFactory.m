@@ -2,7 +2,7 @@
 //  BrandingFactory.m
 //  AbstractFactory
 //
-//  Created by Franky on 2019/3/15.
+//  Created by Franky on 2019/4/2.
 //  Copyright © 2019 Franky. All rights reserved.
 //
 
@@ -12,17 +12,15 @@
 
 @implementation BrandingFactory
 
-+ (BrandingFactory *)factory
-{
-    
-#if defined (USE_ACME)
-    return [[AcmeBrandingFactory alloc] init];
-#elif defined (USE_SIERRA)
-    return [[SierraBrandingFactory alloc] init];
-#else
-    return nil;
-#endif
-
++ (BrandingFactory *)factory{
+    uint32_t random = arc4random_uniform(2);
+    if (random == 0) {
+        return [[AcmeBrandingFactory alloc] init];
+    }else if (random == 1) {
+        return [[SierraBrandingFactory alloc] init];
+    }else{
+        return nil;
+    }
 }
 
 - (UIView *)brandedView{

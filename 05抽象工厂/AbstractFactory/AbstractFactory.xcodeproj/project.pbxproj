@@ -7,57 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3165F1B3223B794D00B6AF2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F1B2223B794D00B6AF2C /* AppDelegate.m */; };
-		3165F1B6223B794D00B6AF2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F1B5223B794D00B6AF2C /* ViewController.m */; };
-		3165F1B9223B794D00B6AF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3165F1B7223B794D00B6AF2C /* Main.storyboard */; };
-		3165F1BB223B794D00B6AF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3165F1BA223B794D00B6AF2C /* Assets.xcassets */; };
-		3165F1BE223B794D00B6AF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3165F1BC223B794D00B6AF2C /* LaunchScreen.storyboard */; };
-		3165F1C1223B794D00B6AF2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F1C0223B794D00B6AF2C /* main.m */; };
-		3165F212223B872800B6AF2C /* AcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F20C223B872800B6AF2C /* AcmeToolbar.m */; };
-		3165F213223B872800B6AF2C /* AcmeMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F20F223B872800B6AF2C /* AcmeMainButton.m */; };
-		3165F214223B872800B6AF2C /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F210223B872800B6AF2C /* AcmeView.m */; };
-		3165F21B223B873600B6AF2C /* SierraMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F217223B873500B6AF2C /* SierraMainButton.m */; };
-		3165F21C223B873600B6AF2C /* SierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F218223B873500B6AF2C /* SierraView.m */; };
-		3165F21D223B873600B6AF2C /* SierraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F219223B873500B6AF2C /* SierraToolbar.m */; };
-		3165F220223B874400B6AF2C /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F21F223B874400B6AF2C /* BrandingFactory.m */; };
-		3165F223223B875000B6AF2C /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F221223B875000B6AF2C /* AcmeBrandingFactory.m */; };
-		3165F226223B875900B6AF2C /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F224223B875900B6AF2C /* SierraBrandingFactory.m */; };
+		316A731C2253600700DB87A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A731B2253600700DB87A4 /* AppDelegate.m */; };
+		316A731F2253600700DB87A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A731E2253600700DB87A4 /* ViewController.m */; };
+		316A73222253600700DB87A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316A73202253600700DB87A4 /* Main.storyboard */; };
+		316A73242253600800DB87A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316A73232253600800DB87A4 /* Assets.xcassets */; };
+		316A73272253600800DB87A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316A73252253600800DB87A4 /* LaunchScreen.storyboard */; };
+		316A732A2253600800DB87A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A73292253600800DB87A4 /* main.m */; };
+		316A73322253604E00DB87A4 /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A73312253604E00DB87A4 /* BrandingFactory.m */; };
+		316A73352253632200DB87A4 /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A73342253632200DB87A4 /* AcmeBrandingFactory.m */; };
+		316A73382253633600DB87A4 /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A73372253633600DB87A4 /* SierraBrandingFactory.m */; };
+		316A733E225364A200DB87A4 /* AcmeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A733D225364A200DB87A4 /* AcmeView.m */; };
+		316A7341225364B400DB87A4 /* AcmeMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A7340225364B400DB87A4 /* AcmeMainButton.m */; };
+		316A7344225364BF00DB87A4 /* AcmeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A7343225364BF00DB87A4 /* AcmeToolbar.m */; };
+		316A73492253656C00DB87A4 /* SierraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A73482253656C00DB87A4 /* SierraView.m */; };
+		316A734C2253657B00DB87A4 /* SierraMainButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A734B2253657B00DB87A4 /* SierraMainButton.m */; };
+		316A734F2253658800DB87A4 /* SierraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 316A734E2253658800DB87A4 /* SierraToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3165F1AE223B794D00B6AF2C /* AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3165F1B1223B794D00B6AF2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3165F1B2223B794D00B6AF2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3165F1B4223B794D00B6AF2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3165F1B5223B794D00B6AF2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3165F1B8223B794D00B6AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3165F1BA223B794D00B6AF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3165F1BD223B794D00B6AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3165F1BF223B794D00B6AF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3165F1C0223B794D00B6AF2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3165F1E7223B822600B6AF2C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		3165F20C223B872800B6AF2C /* AcmeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeToolbar.m; sourceTree = "<group>"; };
-		3165F20D223B872800B6AF2C /* AcmeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeToolbar.h; sourceTree = "<group>"; };
-		3165F20E223B872800B6AF2C /* AcmeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
-		3165F20F223B872800B6AF2C /* AcmeMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeMainButton.m; sourceTree = "<group>"; };
-		3165F210223B872800B6AF2C /* AcmeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
-		3165F211223B872800B6AF2C /* AcmeMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeMainButton.h; sourceTree = "<group>"; };
-		3165F215223B873500B6AF2C /* SierraToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraToolbar.h; sourceTree = "<group>"; };
-		3165F216223B873500B6AF2C /* SierraMainButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraMainButton.h; sourceTree = "<group>"; };
-		3165F217223B873500B6AF2C /* SierraMainButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraMainButton.m; sourceTree = "<group>"; };
-		3165F218223B873500B6AF2C /* SierraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraView.m; sourceTree = "<group>"; };
-		3165F219223B873500B6AF2C /* SierraToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraToolbar.m; sourceTree = "<group>"; };
-		3165F21A223B873600B6AF2C /* SierraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraView.h; sourceTree = "<group>"; };
-		3165F21E223B874400B6AF2C /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
-		3165F21F223B874400B6AF2C /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
-		3165F221223B875000B6AF2C /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
-		3165F222223B875000B6AF2C /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
-		3165F224223B875900B6AF2C /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
-		3165F225223B875900B6AF2C /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		316A73172253600700DB87A4 /* AbstractFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbstractFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		316A731A2253600700DB87A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		316A731B2253600700DB87A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		316A731D2253600700DB87A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		316A731E2253600700DB87A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		316A73212253600700DB87A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		316A73232253600800DB87A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		316A73262253600800DB87A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		316A73282253600800DB87A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316A73292253600800DB87A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		316A73302253604E00DB87A4 /* BrandingFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		316A73312253604E00DB87A4 /* BrandingFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		316A73332253632200DB87A4 /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		316A73342253632200DB87A4 /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		316A73362253633600DB87A4 /* SierraBrandingFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		316A73372253633600DB87A4 /* SierraBrandingFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
+		316A733C225364A200DB87A4 /* AcmeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcmeView.h; sourceTree = "<group>"; };
+		316A733D225364A200DB87A4 /* AcmeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcmeView.m; sourceTree = "<group>"; };
+		316A733F225364B400DB87A4 /* AcmeMainButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcmeMainButton.h; sourceTree = "<group>"; };
+		316A7340225364B400DB87A4 /* AcmeMainButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcmeMainButton.m; sourceTree = "<group>"; };
+		316A7342225364BF00DB87A4 /* AcmeToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcmeToolbar.h; sourceTree = "<group>"; };
+		316A7343225364BF00DB87A4 /* AcmeToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcmeToolbar.m; sourceTree = "<group>"; };
+		316A73472253656C00DB87A4 /* SierraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierraView.h; sourceTree = "<group>"; };
+		316A73482253656C00DB87A4 /* SierraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SierraView.m; sourceTree = "<group>"; };
+		316A734A2253657B00DB87A4 /* SierraMainButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierraMainButton.h; sourceTree = "<group>"; };
+		316A734B2253657B00DB87A4 /* SierraMainButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SierraMainButton.m; sourceTree = "<group>"; };
+		316A734D2253658800DB87A4 /* SierraToolbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SierraToolbar.h; sourceTree = "<group>"; };
+		316A734E2253658800DB87A4 /* SierraToolbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SierraToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3165F1AB223B794D00B6AF2C /* Frameworks */ = {
+		316A73142253600700DB87A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,115 +66,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3165F1A5223B794D00B6AF2C = {
+		316A730E2253600700DB87A4 = {
 			isa = PBXGroup;
 			children = (
-				3165F1B0223B794D00B6AF2C /* AbstractFactory */,
-				3165F1AF223B794D00B6AF2C /* Products */,
+				316A73192253600700DB87A4 /* AbstractFactory */,
+				316A73182253600700DB87A4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3165F1AF223B794D00B6AF2C /* Products */ = {
+		316A73182253600700DB87A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3165F1AE223B794D00B6AF2C /* AbstractFactory.app */,
+				316A73172253600700DB87A4 /* AbstractFactory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3165F1B0223B794D00B6AF2C /* AbstractFactory */ = {
+		316A73192253600700DB87A4 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				3165F207223B86CD00B6AF2C /* Branding Products */,
-				3165F203223B86A300B6AF2C /* Branding Factories */,
-				3165F1B1223B794D00B6AF2C /* AppDelegate.h */,
-				3165F1B2223B794D00B6AF2C /* AppDelegate.m */,
-				3165F1B4223B794D00B6AF2C /* ViewController.h */,
-				3165F1B5223B794D00B6AF2C /* ViewController.m */,
-				3165F1B7223B794D00B6AF2C /* Main.storyboard */,
-				3165F1BA223B794D00B6AF2C /* Assets.xcassets */,
-				3165F1BC223B794D00B6AF2C /* LaunchScreen.storyboard */,
-				3165F1BF223B794D00B6AF2C /* Info.plist */,
-				3165F1C0223B794D00B6AF2C /* main.m */,
-				3165F1E7223B822600B6AF2C /* PrefixHeader.pch */,
+				316A731A2253600700DB87A4 /* AppDelegate.h */,
+				316A731B2253600700DB87A4 /* AppDelegate.m */,
+				316A731D2253600700DB87A4 /* ViewController.h */,
+				316A731E2253600700DB87A4 /* ViewController.m */,
+				316A73202253600700DB87A4 /* Main.storyboard */,
+				316A73232253600800DB87A4 /* Assets.xcassets */,
+				316A73252253600800DB87A4 /* LaunchScreen.storyboard */,
+				316A73282253600800DB87A4 /* Info.plist */,
+				316A73292253600800DB87A4 /* main.m */,
+				316A733B2253647B00DB87A4 /* Product */,
+				316A73392253645B00DB87A4 /* Factory */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
-		3165F203223B86A300B6AF2C /* Branding Factories */ = {
+		316A73392253645B00DB87A4 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				3165F21E223B874400B6AF2C /* BrandingFactory.h */,
-				3165F21F223B874400B6AF2C /* BrandingFactory.m */,
-				3165F209223B86F000B6AF2C /* Acme */,
-				3165F208223B86E600B6AF2C /* Sierra */,
+				316A73302253604E00DB87A4 /* BrandingFactory.h */,
+				316A73312253604E00DB87A4 /* BrandingFactory.m */,
+				316A73332253632200DB87A4 /* AcmeBrandingFactory.h */,
+				316A73342253632200DB87A4 /* AcmeBrandingFactory.m */,
+				316A73362253633600DB87A4 /* SierraBrandingFactory.h */,
+				316A73372253633600DB87A4 /* SierraBrandingFactory.m */,
 			);
-			name = "Branding Factories";
+			name = Factory;
 			sourceTree = "<group>";
 		};
-		3165F207223B86CD00B6AF2C /* Branding Products */ = {
+		316A733B2253647B00DB87A4 /* Product */ = {
 			isa = PBXGroup;
 			children = (
-				3165F20B223B870C00B6AF2C /* Acme */,
-				3165F20A223B870200B6AF2C /* Sierra */,
+				316A73452253654300DB87A4 /* Acme */,
+				316A73462253654F00DB87A4 /* Sierra */,
 			);
-			name = "Branding Products";
+			name = Product;
 			sourceTree = "<group>";
 		};
-		3165F208223B86E600B6AF2C /* Sierra */ = {
+		316A73452253654300DB87A4 /* Acme */ = {
 			isa = PBXGroup;
 			children = (
-				3165F225223B875900B6AF2C /* SierraBrandingFactory.h */,
-				3165F224223B875900B6AF2C /* SierraBrandingFactory.m */,
-			);
-			name = Sierra;
-			sourceTree = "<group>";
-		};
-		3165F209223B86F000B6AF2C /* Acme */ = {
-			isa = PBXGroup;
-			children = (
-				3165F222223B875000B6AF2C /* AcmeBrandingFactory.h */,
-				3165F221223B875000B6AF2C /* AcmeBrandingFactory.m */,
+				316A733C225364A200DB87A4 /* AcmeView.h */,
+				316A733D225364A200DB87A4 /* AcmeView.m */,
+				316A733F225364B400DB87A4 /* AcmeMainButton.h */,
+				316A7340225364B400DB87A4 /* AcmeMainButton.m */,
+				316A7342225364BF00DB87A4 /* AcmeToolbar.h */,
+				316A7343225364BF00DB87A4 /* AcmeToolbar.m */,
 			);
 			name = Acme;
 			sourceTree = "<group>";
 		};
-		3165F20A223B870200B6AF2C /* Sierra */ = {
+		316A73462253654F00DB87A4 /* Sierra */ = {
 			isa = PBXGroup;
 			children = (
-				3165F216223B873500B6AF2C /* SierraMainButton.h */,
-				3165F217223B873500B6AF2C /* SierraMainButton.m */,
-				3165F215223B873500B6AF2C /* SierraToolbar.h */,
-				3165F219223B873500B6AF2C /* SierraToolbar.m */,
-				3165F21A223B873600B6AF2C /* SierraView.h */,
-				3165F218223B873500B6AF2C /* SierraView.m */,
+				316A73472253656C00DB87A4 /* SierraView.h */,
+				316A73482253656C00DB87A4 /* SierraView.m */,
+				316A734A2253657B00DB87A4 /* SierraMainButton.h */,
+				316A734B2253657B00DB87A4 /* SierraMainButton.m */,
+				316A734D2253658800DB87A4 /* SierraToolbar.h */,
+				316A734E2253658800DB87A4 /* SierraToolbar.m */,
 			);
 			name = Sierra;
-			sourceTree = "<group>";
-		};
-		3165F20B223B870C00B6AF2C /* Acme */ = {
-			isa = PBXGroup;
-			children = (
-				3165F211223B872800B6AF2C /* AcmeMainButton.h */,
-				3165F20F223B872800B6AF2C /* AcmeMainButton.m */,
-				3165F20D223B872800B6AF2C /* AcmeToolbar.h */,
-				3165F20C223B872800B6AF2C /* AcmeToolbar.m */,
-				3165F20E223B872800B6AF2C /* AcmeView.h */,
-				3165F210223B872800B6AF2C /* AcmeView.m */,
-			);
-			name = Acme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3165F1AD223B794D00B6AF2C /* AbstractFactory */ = {
+		316A73162253600700DB87A4 /* AbstractFactory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3165F1C4223B794D00B6AF2C /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
+			buildConfigurationList = 316A732D2253600800DB87A4 /* Build configuration list for PBXNativeTarget "AbstractFactory" */;
 			buildPhases = (
-				3165F1AA223B794D00B6AF2C /* Sources */,
-				3165F1AB223B794D00B6AF2C /* Frameworks */,
-				3165F1AC223B794D00B6AF2C /* Resources */,
+				316A73132253600700DB87A4 /* Sources */,
+				316A73142253600700DB87A4 /* Frameworks */,
+				316A73152253600700DB87A4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -183,24 +165,24 @@
 			);
 			name = AbstractFactory;
 			productName = AbstractFactory;
-			productReference = 3165F1AE223B794D00B6AF2C /* AbstractFactory.app */;
+			productReference = 316A73172253600700DB87A4 /* AbstractFactory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3165F1A6223B794D00B6AF2C /* Project object */ = {
+		316A730F2253600700DB87A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Franky;
 				TargetAttributes = {
-					3165F1AD223B794D00B6AF2C = {
-						CreatedOnToolsVersion = 10.1;
+					316A73162253600700DB87A4 = {
+						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 3165F1A9223B794D00B6AF2C /* Build configuration list for PBXProject "AbstractFactory" */;
+			buildConfigurationList = 316A73122253600700DB87A4 /* Build configuration list for PBXProject "AbstractFactory" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -208,64 +190,64 @@
 				en,
 				Base,
 			);
-			mainGroup = 3165F1A5223B794D00B6AF2C;
-			productRefGroup = 3165F1AF223B794D00B6AF2C /* Products */;
+			mainGroup = 316A730E2253600700DB87A4;
+			productRefGroup = 316A73182253600700DB87A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3165F1AD223B794D00B6AF2C /* AbstractFactory */,
+				316A73162253600700DB87A4 /* AbstractFactory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3165F1AC223B794D00B6AF2C /* Resources */ = {
+		316A73152253600700DB87A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3165F1BE223B794D00B6AF2C /* LaunchScreen.storyboard in Resources */,
-				3165F1BB223B794D00B6AF2C /* Assets.xcassets in Resources */,
-				3165F1B9223B794D00B6AF2C /* Main.storyboard in Resources */,
+				316A73272253600800DB87A4 /* LaunchScreen.storyboard in Resources */,
+				316A73242253600800DB87A4 /* Assets.xcassets in Resources */,
+				316A73222253600700DB87A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3165F1AA223B794D00B6AF2C /* Sources */ = {
+		316A73132253600700DB87A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3165F223223B875000B6AF2C /* AcmeBrandingFactory.m in Sources */,
-				3165F226223B875900B6AF2C /* SierraBrandingFactory.m in Sources */,
-				3165F21C223B873600B6AF2C /* SierraView.m in Sources */,
-				3165F1B6223B794D00B6AF2C /* ViewController.m in Sources */,
-				3165F212223B872800B6AF2C /* AcmeToolbar.m in Sources */,
-				3165F214223B872800B6AF2C /* AcmeView.m in Sources */,
-				3165F21D223B873600B6AF2C /* SierraToolbar.m in Sources */,
-				3165F220223B874400B6AF2C /* BrandingFactory.m in Sources */,
-				3165F1C1223B794D00B6AF2C /* main.m in Sources */,
-				3165F213223B872800B6AF2C /* AcmeMainButton.m in Sources */,
-				3165F1B3223B794D00B6AF2C /* AppDelegate.m in Sources */,
-				3165F21B223B873600B6AF2C /* SierraMainButton.m in Sources */,
+				316A731F2253600700DB87A4 /* ViewController.m in Sources */,
+				316A7344225364BF00DB87A4 /* AcmeToolbar.m in Sources */,
+				316A734C2253657B00DB87A4 /* SierraMainButton.m in Sources */,
+				316A73382253633600DB87A4 /* SierraBrandingFactory.m in Sources */,
+				316A7341225364B400DB87A4 /* AcmeMainButton.m in Sources */,
+				316A73492253656C00DB87A4 /* SierraView.m in Sources */,
+				316A73352253632200DB87A4 /* AcmeBrandingFactory.m in Sources */,
+				316A734F2253658800DB87A4 /* SierraToolbar.m in Sources */,
+				316A73322253604E00DB87A4 /* BrandingFactory.m in Sources */,
+				316A733E225364A200DB87A4 /* AcmeView.m in Sources */,
+				316A732A2253600800DB87A4 /* main.m in Sources */,
+				316A731C2253600700DB87A4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3165F1B7223B794D00B6AF2C /* Main.storyboard */ = {
+		316A73202253600700DB87A4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3165F1B8223B794D00B6AF2C /* Base */,
+				316A73212253600700DB87A4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3165F1BC223B794D00B6AF2C /* LaunchScreen.storyboard */ = {
+		316A73252253600800DB87A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3165F1BD223B794D00B6AF2C /* Base */,
+				316A73262253600800DB87A4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -273,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3165F1C2223B794D00B6AF2C /* Debug */ = {
+		316A732B2253600800DB87A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -324,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -332,7 +314,7 @@
 			};
 			name = Debug;
 		};
-		3165F1C3223B794D00B6AF2C /* Release */ = {
+		316A732C2253600800DB87A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -385,14 +367,12 @@
 			};
 			name = Release;
 		};
-		3165F1C5223B794D00B6AF2C /* Debug */ = {
+		316A732E2253600800DB87A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 423Z88A982;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "/Users/franky/Desktop/DesignPattern/05抽象工厂/AbstractFactory/AbstractFactory/PrefixHeader.pch";
+				DEVELOPMENT_TEAM = K6U45C6H2P;
 				INFOPLIST_FILE = AbstractFactory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -404,14 +384,12 @@
 			};
 			name = Debug;
 		};
-		3165F1C6223B794D00B6AF2C /* Release */ = {
+		316A732F2253600800DB87A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 423Z88A982;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "/Users/franky/Desktop/DesignPattern/05抽象工厂/AbstractFactory/AbstractFactory/PrefixHeader.pch";
+				DEVELOPMENT_TEAM = K6U45C6H2P;
 				INFOPLIST_FILE = AbstractFactory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -426,25 +404,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3165F1A9223B794D00B6AF2C /* Build configuration list for PBXProject "AbstractFactory" */ = {
+		316A73122253600700DB87A4 /* Build configuration list for PBXProject "AbstractFactory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3165F1C2223B794D00B6AF2C /* Debug */,
-				3165F1C3223B794D00B6AF2C /* Release */,
+				316A732B2253600800DB87A4 /* Debug */,
+				316A732C2253600800DB87A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3165F1C4223B794D00B6AF2C /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
+		316A732D2253600800DB87A4 /* Build configuration list for PBXNativeTarget "AbstractFactory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3165F1C5223B794D00B6AF2C /* Debug */,
-				3165F1C6223B794D00B6AF2C /* Release */,
+				316A732E2253600800DB87A4 /* Debug */,
+				316A732F2253600800DB87A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3165F1A6223B794D00B6AF2C /* Project object */;
+	rootObject = 316A730F2253600700DB87A4 /* Project object */;
 }
