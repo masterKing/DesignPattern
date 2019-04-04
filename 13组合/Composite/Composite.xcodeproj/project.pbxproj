@@ -68,6 +68,7 @@
 		317501312254910400CD0800 /* Composite */ = {
 			isa = PBXGroup;
 			children = (
+				319386AB2255F92C005B8A35 /* Mark */,
 				317501322254910400CD0800 /* AppDelegate.h */,
 				317501332254910400CD0800 /* AppDelegate.m */,
 				317501352254910400CD0800 /* ViewController.h */,
@@ -77,6 +78,13 @@
 				3175013D2254910500CD0800 /* LaunchScreen.storyboard */,
 				317501402254910500CD0800 /* Info.plist */,
 				317501412254910500CD0800 /* main.m */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		319386AB2255F92C005B8A35 /* Mark */ = {
+			isa = PBXGroup;
+			children = (
 				31750148225499A500CD0800 /* Mark.h */,
 				317D42792254BF1A00BBD639 /* Vertex.h */,
 				317D427A2254BF1A00BBD639 /* Vertex.m */,
@@ -85,7 +93,7 @@
 				319386A72255B53D005B8A35 /* Stroke.h */,
 				319386A82255B53D005B8A35 /* Stroke.m */,
 			);
-			path = Composite;
+			name = Mark;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
