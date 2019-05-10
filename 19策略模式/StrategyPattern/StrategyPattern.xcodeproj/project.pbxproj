@@ -15,8 +15,21 @@
 		31C644AB21B90030003F5A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C644AA21B90030003F5A97 /* main.m */; };
 		31C644B521B90030003F5A97 /* StrategyPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C644B421B90030003F5A97 /* StrategyPatternTests.m */; };
 		31C644C021B90030003F5A97 /* StrategyPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C644BF21B90030003F5A97 /* StrategyPatternUITests.m */; };
-		31C644D221B9022F003F5A97 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C644D121B9022F003F5A97 /* InputValidator.m */; };
-		31C644D521B902A8003F5A97 /* NumericInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C644D421B902A8003F5A97 /* NumericInputValidator.m */; };
+		31EB3DE12282B03F006A8B64 /* Duck.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DE02282B03F006A8B64 /* Duck.m */; };
+		31EB3DE42282B14E006A8B64 /* MallardDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DE32282B14E006A8B64 /* MallardDuck.m */; };
+		31EB3DE72282B160006A8B64 /* RedheadDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DE62282B160006A8B64 /* RedheadDuck.m */; };
+		31EB3DEA2282B461006A8B64 /* RubberDuck.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DE92282B461006A8B64 /* RubberDuck.m */; };
+		31EB3DEF2282DEEA006A8B64 /* FlyBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DEE2282DEEA006A8B64 /* FlyBehavior.m */; };
+		31EB3DF22282DF01006A8B64 /* QuackBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DF12282DF01006A8B64 /* QuackBehavior.m */; };
+		31EB3DF62282DF36006A8B64 /* FlyWithWings.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DF52282DF36006A8B64 /* FlyWithWings.m */; };
+		31EB3DF92282DF70006A8B64 /* FlyNoWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DF82282DF70006A8B64 /* FlyNoWay.m */; };
+		31EB3DFC2282DF85006A8B64 /* Quack.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DFB2282DF85006A8B64 /* Quack.m */; };
+		31EB3DFF2282DF8D006A8B64 /* Squeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3DFE2282DF8D006A8B64 /* Squeak.m */; };
+		31EB3E022282DF9B006A8B64 /* MuteQuack.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3E012282DF9B006A8B64 /* MuteQuack.m */; };
+		31EB3E0622840AA1006A8B64 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3E0522840AA1006A8B64 /* InputValidator.m */; };
+		31EB3E0922840BE9006A8B64 /* NumericInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3E0822840BE9006A8B64 /* NumericInputValidator.m */; };
+		31EB3E0C22841068006A8B64 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3E0B22841068006A8B64 /* CustomTextField.m */; };
+		31EB3E0F2284255F006A8B64 /* AlphaInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EB3E0E2284255F006A8B64 /* AlphaInputValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +66,36 @@
 		31C644BB21B90030003F5A97 /* StrategyPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategyPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C644BF21B90030003F5A97 /* StrategyPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPatternUITests.m; sourceTree = "<group>"; };
 		31C644C121B90030003F5A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31C644D021B9022F003F5A97 /* InputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
-		31C644D121B9022F003F5A97 /* InputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
-		31C644D321B902A8003F5A97 /* NumericInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumericInputValidator.h; sourceTree = "<group>"; };
-		31C644D421B902A8003F5A97 /* NumericInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumericInputValidator.m; sourceTree = "<group>"; };
+		31EB3DDF2282B03F006A8B64 /* Duck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Duck.h; sourceTree = "<group>"; };
+		31EB3DE02282B03F006A8B64 /* Duck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Duck.m; sourceTree = "<group>"; };
+		31EB3DE22282B14E006A8B64 /* MallardDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MallardDuck.h; sourceTree = "<group>"; };
+		31EB3DE32282B14E006A8B64 /* MallardDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MallardDuck.m; sourceTree = "<group>"; };
+		31EB3DE52282B160006A8B64 /* RedheadDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedheadDuck.h; sourceTree = "<group>"; };
+		31EB3DE62282B160006A8B64 /* RedheadDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedheadDuck.m; sourceTree = "<group>"; };
+		31EB3DE82282B461006A8B64 /* RubberDuck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RubberDuck.h; sourceTree = "<group>"; };
+		31EB3DE92282B461006A8B64 /* RubberDuck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubberDuck.m; sourceTree = "<group>"; };
+		31EB3DED2282DEEA006A8B64 /* FlyBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyBehavior.h; sourceTree = "<group>"; };
+		31EB3DEE2282DEEA006A8B64 /* FlyBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyBehavior.m; sourceTree = "<group>"; };
+		31EB3DF02282DF01006A8B64 /* QuackBehavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuackBehavior.h; sourceTree = "<group>"; };
+		31EB3DF12282DF01006A8B64 /* QuackBehavior.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuackBehavior.m; sourceTree = "<group>"; };
+		31EB3DF42282DF36006A8B64 /* FlyWithWings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyWithWings.h; sourceTree = "<group>"; };
+		31EB3DF52282DF36006A8B64 /* FlyWithWings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyWithWings.m; sourceTree = "<group>"; };
+		31EB3DF72282DF70006A8B64 /* FlyNoWay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyNoWay.h; sourceTree = "<group>"; };
+		31EB3DF82282DF70006A8B64 /* FlyNoWay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyNoWay.m; sourceTree = "<group>"; };
+		31EB3DFA2282DF85006A8B64 /* Quack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quack.h; sourceTree = "<group>"; };
+		31EB3DFB2282DF85006A8B64 /* Quack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quack.m; sourceTree = "<group>"; };
+		31EB3DFD2282DF8D006A8B64 /* Squeak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Squeak.h; sourceTree = "<group>"; };
+		31EB3DFE2282DF8D006A8B64 /* Squeak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Squeak.m; sourceTree = "<group>"; };
+		31EB3E002282DF9B006A8B64 /* MuteQuack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuteQuack.h; sourceTree = "<group>"; };
+		31EB3E012282DF9B006A8B64 /* MuteQuack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MuteQuack.m; sourceTree = "<group>"; };
+		31EB3E0422840AA1006A8B64 /* InputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
+		31EB3E0522840AA1006A8B64 /* InputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		31EB3E0722840BE9006A8B64 /* NumericInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumericInputValidator.h; sourceTree = "<group>"; };
+		31EB3E0822840BE9006A8B64 /* NumericInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumericInputValidator.m; sourceTree = "<group>"; };
+		31EB3E0A22841068006A8B64 /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		31EB3E0B22841068006A8B64 /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		31EB3E0D2284255F006A8B64 /* AlphaInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaInputValidator.h; sourceTree = "<group>"; };
+		31EB3E0E2284255F006A8B64 /* AlphaInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaInputValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +146,8 @@
 		31C6449A21B9002F003F5A97 /* StrategyPattern */ = {
 			isa = PBXGroup;
 			children = (
-				31C644CF21B901B1003F5A97 /* InputValidator */,
+				31EB3E0322840A8E006A8B64 /* InputValidator */,
+				31EB3DDE2281DA3A006A8B64 /* SimUDuck */,
 				31C6449B21B9002F003F5A97 /* AppDelegate.h */,
 				31C6449C21B9002F003F5A97 /* AppDelegate.m */,
 				31C6449E21B9002F003F5A97 /* ViewController.h */,
@@ -117,6 +157,8 @@
 				31C644A621B90030003F5A97 /* LaunchScreen.storyboard */,
 				31C644A921B90030003F5A97 /* Info.plist */,
 				31C644AA21B90030003F5A97 /* main.m */,
+				31EB3E0A22841068006A8B64 /* CustomTextField.h */,
+				31EB3E0B22841068006A8B64 /* CustomTextField.m */,
 			);
 			path = StrategyPattern;
 			sourceTree = "<group>";
@@ -139,15 +181,62 @@
 			path = StrategyPatternUITests;
 			sourceTree = "<group>";
 		};
-		31C644CF21B901B1003F5A97 /* InputValidator */ = {
+		31EB3DDE2281DA3A006A8B64 /* SimUDuck */ = {
 			isa = PBXGroup;
 			children = (
-				31C644D021B9022F003F5A97 /* InputValidator.h */,
-				31C644D121B9022F003F5A97 /* InputValidator.m */,
-				31C644D321B902A8003F5A97 /* NumericInputValidator.h */,
-				31C644D421B902A8003F5A97 /* NumericInputValidator.m */,
+				31EB3DF32282DF1D006A8B64 /* QuackBehavior */,
+				31EB3DEB2282BDBB006A8B64 /* FlyBehavior */,
+				31EB3DDF2282B03F006A8B64 /* Duck.h */,
+				31EB3DE02282B03F006A8B64 /* Duck.m */,
+				31EB3DE22282B14E006A8B64 /* MallardDuck.h */,
+				31EB3DE32282B14E006A8B64 /* MallardDuck.m */,
+				31EB3DE52282B160006A8B64 /* RedheadDuck.h */,
+				31EB3DE62282B160006A8B64 /* RedheadDuck.m */,
+				31EB3DE82282B461006A8B64 /* RubberDuck.h */,
+				31EB3DE92282B461006A8B64 /* RubberDuck.m */,
 			);
-			path = InputValidator;
+			name = SimUDuck;
+			sourceTree = "<group>";
+		};
+		31EB3DEB2282BDBB006A8B64 /* FlyBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				31EB3DED2282DEEA006A8B64 /* FlyBehavior.h */,
+				31EB3DEE2282DEEA006A8B64 /* FlyBehavior.m */,
+				31EB3DF42282DF36006A8B64 /* FlyWithWings.h */,
+				31EB3DF52282DF36006A8B64 /* FlyWithWings.m */,
+				31EB3DF72282DF70006A8B64 /* FlyNoWay.h */,
+				31EB3DF82282DF70006A8B64 /* FlyNoWay.m */,
+			);
+			name = FlyBehavior;
+			sourceTree = "<group>";
+		};
+		31EB3DF32282DF1D006A8B64 /* QuackBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				31EB3DF02282DF01006A8B64 /* QuackBehavior.h */,
+				31EB3DF12282DF01006A8B64 /* QuackBehavior.m */,
+				31EB3DFA2282DF85006A8B64 /* Quack.h */,
+				31EB3DFB2282DF85006A8B64 /* Quack.m */,
+				31EB3DFD2282DF8D006A8B64 /* Squeak.h */,
+				31EB3DFE2282DF8D006A8B64 /* Squeak.m */,
+				31EB3E002282DF9B006A8B64 /* MuteQuack.h */,
+				31EB3E012282DF9B006A8B64 /* MuteQuack.m */,
+			);
+			name = QuackBehavior;
+			sourceTree = "<group>";
+		};
+		31EB3E0322840A8E006A8B64 /* InputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				31EB3E0422840AA1006A8B64 /* InputValidator.h */,
+				31EB3E0522840AA1006A8B64 /* InputValidator.m */,
+				31EB3E0722840BE9006A8B64 /* NumericInputValidator.h */,
+				31EB3E0822840BE9006A8B64 /* NumericInputValidator.m */,
+				31EB3E0D2284255F006A8B64 /* AlphaInputValidator.h */,
+				31EB3E0E2284255F006A8B64 /* AlphaInputValidator.m */,
+			);
+			name = InputValidator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,11 +369,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EB3DF22282DF01006A8B64 /* QuackBehavior.m in Sources */,
+				31EB3DE12282B03F006A8B64 /* Duck.m in Sources */,
+				31EB3DE42282B14E006A8B64 /* MallardDuck.m in Sources */,
+				31EB3E0C22841068006A8B64 /* CustomTextField.m in Sources */,
 				31C644A021B9002F003F5A97 /* ViewController.m in Sources */,
-				31C644D221B9022F003F5A97 /* InputValidator.m in Sources */,
-				31C644D521B902A8003F5A97 /* NumericInputValidator.m in Sources */,
+				31EB3E0622840AA1006A8B64 /* InputValidator.m in Sources */,
+				31EB3DFF2282DF8D006A8B64 /* Squeak.m in Sources */,
+				31EB3DF92282DF70006A8B64 /* FlyNoWay.m in Sources */,
+				31EB3E022282DF9B006A8B64 /* MuteQuack.m in Sources */,
+				31EB3DF62282DF36006A8B64 /* FlyWithWings.m in Sources */,
+				31EB3DE72282B160006A8B64 /* RedheadDuck.m in Sources */,
+				31EB3DEA2282B461006A8B64 /* RubberDuck.m in Sources */,
+				31EB3E0922840BE9006A8B64 /* NumericInputValidator.m in Sources */,
 				31C644AB21B90030003F5A97 /* main.m in Sources */,
+				31EB3E0F2284255F006A8B64 /* AlphaInputValidator.m in Sources */,
+				31EB3DFC2282DF85006A8B64 /* Quack.m in Sources */,
 				31C6449D21B9002F003F5A97 /* AppDelegate.m in Sources */,
+				31EB3DEF2282DEEA006A8B64 /* FlyBehavior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +558,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57AN97A73F;
 				INFOPLIST_FILE = StrategyPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +576,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57AN97A73F;
 				INFOPLIST_FILE = StrategyPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -2,8 +2,8 @@
 //  InputValidator.m
 //  StrategyPattern
 //
-//  Created by Franky on 2018/12/6.
-//  Copyright © 2018 Franky. All rights reserved.
+//  Created by Franky on 2019/5/9.
+//  Copyright © 2019 Franky. All rights reserved.
 //
 
 #import "InputValidator.h"
