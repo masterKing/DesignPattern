@@ -11,15 +11,15 @@
 @protocol Mark <NSObject>
 
 @property (nonatomic, strong) UIColor *color;
-@property (nonatomic, assign) CGSize size;
+@property (nonatomic, assign) CGFloat size;
 @property (nonatomic, assign) CGPoint location;
-@property (nonatomic, assign) NSInteger count;
-@property (nonatomic, strong) id <Mark> lastChild;
+@property (nonatomic, readonly) NSUInteger count;// 子节点个数
+@property (nonatomic, readonly) id <Mark> lastChild;
 
+@required
 - (void)addMark:(id <Mark>)mark;
 - (void)removeMark:(id <Mark>)mark;
-- (void)childMarkAtIndex:(NSInteger)index;
-- (id)copy;
+- (id <Mark>)childMarkAtIndex:(NSUInteger)index;
 
 @end
 

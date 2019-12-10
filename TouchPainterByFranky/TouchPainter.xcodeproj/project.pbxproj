@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3138900B239E72150059B964 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3138900A239E72150059B964 /* Vertex.m */; };
+		3138900E239F6C820059B964 /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3138900D239F6C820059B964 /* Dot.m */; };
 		3165F195223A770000B6AF2C /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F194223A770000B6AF2C /* CanvasView.m */; };
 		3165F198223A783900B6AF2C /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F197223A783900B6AF2C /* PaperCanvasView.m */; };
 		3165F19B223A792400B6AF2C /* ClothCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F19A223A792400B6AF2C /* ClothCanvasView.m */; };
@@ -33,6 +34,8 @@
 		31389008239E70AC0059B964 /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 		31389009239E72150059B964 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		3138900A239E72150059B964 /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		3138900C239F6C820059B964 /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		3138900D239F6C820059B964 /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
 		3165F193223A770000B6AF2C /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
 		3165F194223A770000B6AF2C /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		3165F196223A783900B6AF2C /* PaperCanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperCanvasView.h; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				31389008239E70AC0059B964 /* Mark.h */,
 				31389009239E72150059B964 /* Vertex.h */,
 				3138900A239E72150059B964 /* Vertex.m */,
+				3138900C239F6C820059B964 /* Dot.h */,
+				3138900D239F6C820059B964 /* Dot.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				3181D2CF21D68BCB004E5C15 /* PaletteViewController.m in Sources */,
 				3138900B239E72150059B964 /* Vertex.m in Sources */,
 				3165F1A4223A9FD300B6AF2C /* ClothCanvasViewGenerator.m in Sources */,
+				3138900E239F6C820059B964 /* Dot.m in Sources */,
 				3181D2BE21D68A8E004E5C15 /* CoordinatingController.m in Sources */,
 				31BE2A0821D6402C00DD5A55 /* ViewController.m in Sources */,
 				3165F1A1223A9EFD00B6AF2C /* PaperCanvasViewGenerator.m in Sources */,

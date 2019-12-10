@@ -6,12 +6,16 @@
 //  Copyright © 2019 Franky. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Mark.h"
 
-NS_ASSUME_NONNULL_BEGIN
+@interface Vertex : NSObject <Mark, NSCopying>
+{
+    @protected
+    CGPoint _location;
+}
 
-@interface Vertex : NSObject
+@property (nonatomic, assign) CGPoint location;
+
+- (instancetype)initWithLocation:(CGPoint)location;
 
 @end
-
-NS_ASSUME_NONNULL_END

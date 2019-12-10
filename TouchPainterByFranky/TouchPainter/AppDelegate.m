@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Dot.h"
 @interface AppDelegate ()
 
 @end
@@ -21,6 +21,17 @@
     CoordinatingController *coordinatingController = [CoordinatingController shareInstance];
     self.window.rootViewController = [coordinatingController activeViewController];
     [self.window makeKeyAndVisible];
+    Dot *aDot = [[Dot alloc] initWithLocation:CGPointMake(1, 1)];
+    aDot.color = [UIColor redColor];
+    aDot.size = 10;
+    
+    
+    
+    Dot *newDot = [aDot copy];
+    newDot.color = [UIColor greenColor];
+    
+//    aDot.color = [UIColor greenColor];
+    
     return YES;
 }
 
