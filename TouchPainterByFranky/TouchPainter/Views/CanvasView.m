@@ -10,11 +10,10 @@
 
 @implementation CanvasView
 
-- (id)initWithFrame:(CGRect)frame
+- (instancetype)initWithFrame:(CGRect)frame
 {
-    if ((self = [super initWithFrame:frame]))
-    {
-        // Initialization code
+    self = [super initWithFrame:frame];
+    if (self) {
         [self setBackgroundColor:[UIColor whiteColor]];
     }
     return self;

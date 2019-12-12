@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "Dot.h"
+#import "ClothCanvasViewGenerator.h"
+#import "PaperCanvasViewGenerator.h"
+
 @interface AppDelegate ()
 
 @end
@@ -21,20 +23,39 @@
     CoordinatingController *coordinatingController = [CoordinatingController shareInstance];
     self.window.rootViewController = [coordinatingController activeViewController];
     [self.window makeKeyAndVisible];
-    Dot *aDot = [[Dot alloc] initWithLocation:CGPointMake(1, 1)];
-    aDot.color = [UIColor redColor];
-    aDot.size = 10;
     
+    CGFloat width = 50;
+    CGFloat height = 50;
+    CGFloat x = (UIScreen.mainScreen.bounds.size.width - width) * 0.5;
+    CGFloat y = 100;
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(x, y, width, height)];
+    button.backgroundColor = [UIColor yellowColor];
+    [button addTarget:self action:@selector(didClickButton) forControlEvents:UIControlEventTouchUpInside];
+    [[[UIApplication sharedApplication] keyWindow] addSubview:button];
+
     
-    
-    Dot *newDot = [aDot copy];
-    newDot.color = [UIColor greenColor];
-    
-//    aDot.color = [UIColor greenColor];
     
     return YES;
 }
 
+- (void)didClickButton{
+    CoordinatingController *coordinatingController = [CoordinatingController shareInstance];
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"提示" message:@"你想要换什么样的画布" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *one = [UIAlertAction actionWithTitle:@"纸张画布" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {
+        PaperCanvasViewGenerator *generator = [[PaperCanvasViewGenerator alloc] init];
+        [coordinatingController.canvasViewController loadCanvasViewWithGenerator:generator];
+    }];
+    [alertController addAction:one];
+    
+    UIAlertAction *two = [UIAlertAction actionWithTitle:@"布视图" style:(UIAlertActionStyleDefault) handler:^(UIAlertAction * _Nonnull action) {
+        ClothCanvasViewGenerator *generator = [[ClothCanvasViewGenerator alloc] init];
+        [coordinatingController.canvasViewController loadCanvasViewWithGenerator:generator];
+    }];
+    [alertController addAction:two];
+    
+    [coordinatingController.activeViewController presentViewController:alertController animated:YES completion:nil];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

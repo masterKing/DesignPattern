@@ -42,8 +42,7 @@
     CGRect aFrame = UIScreen.mainScreen.bounds;
     CanvasView *aCanvasView = [generator canvasViewWithFrame:aFrame];
     self.canvasView = aCanvasView;
-    NSInteger viewIndex = self.view.subviews.count - 1;
-    [self.view insertSubview:_canvasView atIndex:viewIndex];
+    [self.view insertSubview:_canvasView atIndex:0];
 }
 
 #pragma mark -
