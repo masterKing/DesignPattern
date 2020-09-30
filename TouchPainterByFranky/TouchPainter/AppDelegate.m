@@ -31,7 +31,7 @@
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(x, y, width, height)];
     button.backgroundColor = [UIColor yellowColor];
     [button addTarget:self action:@selector(didClickButton) forControlEvents:UIControlEventTouchUpInside];
-    [[[UIApplication sharedApplication] keyWindow] addSubview:button];
+    //[[[UIApplication sharedApplication] keyWindow] addSubview:button];
 
     
     

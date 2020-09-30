@@ -19,4 +19,22 @@
     return self;
 }
 
+- (void)drawRect:(CGRect)rect{
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextMoveToPoint(context, 100, 100);
+    CGContextAddLineToPoint(context, 100, 400);
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    CGContextStrokePath(context);
+    
+    
+//    if (CGPointEqualToPoint(self.point, CGPointZero) ) {
+//        CGContextMoveToPoint(context, self.point.x, self.point.y);
+//    }else{
+//        CGContextAddLineToPoint(context, self.point.x, self.point.y);
+//    }
+//    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+//    CGContextStrokePath(context);
+}
+
 @end

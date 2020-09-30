@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CanvasView : UIView
-
+@property (nonatomic, assign) CGPoint point;
 @end
 
 NS_ASSUME_NONNULL_END

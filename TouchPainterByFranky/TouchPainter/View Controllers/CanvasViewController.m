@@ -55,6 +55,22 @@
 
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
+//    CGPoint p = [touches.anyObject locationInView:self.view];
+//    
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//    //    CGContextMoveToPoint(context, 100, 100);
+//    //    CGContextAddLineToPoint(context, 100, 400);
+//    //    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+//    //    CGContextStrokePath(context);
+//    
+//    
+//    if (CGPointEqualToPoint(p, CGPointZero) ) {
+//        CGContextMoveToPoint(context, p.x, p.y);
+//    }else{
+//        CGContextAddLineToPoint(context, p.x, p.y);
+//    }
+//    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+//    CGContextStrokePath(context);
     
 }
 
